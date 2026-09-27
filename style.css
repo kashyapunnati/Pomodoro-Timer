@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111827;
+    color: #f9fafb;
+    min-height: 100vh;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #60a5fa;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+section {
+    background: #1f2937;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: 1px solid #374151;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #93c5fd;
+    margin-bottom: 18px;
+}
+
+#timerMode {
+    text-align: center;
+    color: #93c5fd;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#timer {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 0 30px;
+    letter-spacing: 3px;
+}
+
+.controls {
+    text-align: center;
+}
+
+button {
+    padding: 11px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#pauseBtn {
+    background: #f59e0b;
+}
+
+#pauseBtn:hover {
+    background: #d97706;
+}
+
+#resetBtn {
+    background: #dc2626;
+}
+
+#resetBtn:hover {
+    background: #b91c1c;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    color: #d1d5db;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #4b5563;
+    border-radius: 8px;
+    background: #111827;
+    color: #f9fafb;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #60a5fa;
+}
+
+#saveSettingsBtn {
+    background: #059669;
+}
+
+#saveSettingsBtn:hover {
+    background: #047857;
+}
+
+.session-section {
+    text-align: center;
+}
+
+#sessionCount {
+    font-size: 50px;
+    font-weight: bold;
+    color: #60a5fa;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    #timer {
+        font-size: 55px;
+    }
+
+    button {
+        padding: 10px 16px;
+    }
+}
